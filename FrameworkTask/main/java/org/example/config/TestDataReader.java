@@ -1,10 +1,9 @@
-package org.example.driver;
+package org.example.config;
 
 import java.util.ResourceBundle;
 
 public class TestDataReader {
     private static final String ENVIRONMENT_PROPERTY = "env";
-   // public static final String BROWSER_MAXIMIZE="browser.maximize";
     private static ResourceBundle resourceBundle;
     static {
         String environment = System.getProperty(ENVIRONMENT_PROPERTY, "dev");
