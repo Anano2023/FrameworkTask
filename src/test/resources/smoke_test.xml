@@ -3,8 +3,8 @@
 <suite name="Smoke Tests Suite">
     <test name="Smoke Test">
         <parameter name="browser" value="edge"/>
-        <classes>
-            <class name="org.example.test.App"/>
-        </classes>
+        <packages>
+            <package name="org.example.config"/>
+        </packages>
     </test>
 </suite>

@@ -1,4 +1,4 @@
-package org.example.test;
+package org.example.utils;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -20,7 +20,6 @@ public class TestListener implements ITestListener {
             System.out.println("Test Failed! Taking screenshot...");
             captureScreenshot(result.getMethod().getMethodName());
         }
-
         private void captureScreenshot(String methodName) {
             if (driver instanceof TakesScreenshot) {
                 File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

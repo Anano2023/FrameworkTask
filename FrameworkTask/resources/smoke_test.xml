@@ -6,7 +6,7 @@
         <parameter name="browser.name" value="edge" />
         <parameter name="browser.maximize" value="true" />
         <classes>
-            <class name="org.example.test.App">
+            <class name="org.example.config.TestCalculatorPage">
             </class>
         </classes>
     </test>
